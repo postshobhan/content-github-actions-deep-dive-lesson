@@ -52,7 +52,7 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: zipped bundle
+          name: zipped-bundle
       - name: Create Release
         id: create_release
         uses: softprops/action-gh-release@v1
